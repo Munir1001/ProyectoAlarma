@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.data-grid {
+    width: 100%;
+}
+
+.data-grid th,
+.data-grid td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: large;
+}
+
+.data-grid th {
+    background-color: #02001b;
+    font-weight: bold;
+    color: #fff;
+}
+
+.filtro-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10PX;
+    justify-content: center;
+}
+
+.filtro-container>* {
+    margin-right: 10px;
+}
+
+.filtro-container select {
+    padding: 1px;
+    color: black;
+}
+
+.filtro-container button {
+    padding: 8px 16px;
+    background-color:  #02001b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.filtro-container button:hover {
+    background-color: #031853;
+}
+
+.inicio {
+    text-align: center;
+    
+}
+
+.fin {
+    text-align: center;
+}
